@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/comic-paradise-icon.jpg",
         "backgroundColor": "#000000"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.chainberstest.comicbookmobileapp"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d098d985-f250-4e1a-b0d1-a032b61165da"
+      }
+    },
+    "owner": "chainberstest"
   }
 }

@@ -19,6 +19,10 @@ A mobile comic book browsing app built with React Native. It uses the Comic Vine
 * Native Wind
 * Comic Vine API
 
+
+### APK File (Android Only)
+[**Download Comic Paradise APK**](https://github.com/SimonDdungu/comic-paradise/releases/download/v1.0.0-beta/Comic.Paradise.apk)
+
 ## Setup Instructions
 1. git clone https://github.com/SimonDdungu/comic-paradise.git
 2. cd comic-paradise

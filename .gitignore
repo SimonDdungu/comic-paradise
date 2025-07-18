@@ -9,6 +9,9 @@ dist/
 web-build/
 expo-env.d.ts
 
+#first apk build
+build-1752878748862.apk
+
 # Native
 .kotlin/
 *.orig.*
