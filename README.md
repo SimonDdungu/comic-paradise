@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+## COMIC PARADISE - MOBILE APP
+A mobile comic book browsing app built with React Native. It uses the Comic Vine API to fetch and display comic book data. Users can browse through comics and view detailed information about each one.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### Features
+- Browse a feed of comic books
 
-## Get started
+- Fetches real comic data from the Comic Vine API
 
-1. Install dependencies
+- View detailed pages for each comic
 
-   ```bash
-   npm install
-   ```
+- Smooth navigation using tabs and stacks
 
-2. Start the app
+- Designed for mobile-first experience
 
-   ```bash
-   npx expo start
-   ```
+### Tech Stack
+* React Native
+* Expo
+* TypeScript
+* Native Wind
+* Comic Vine API
 
-In the output, you'll find options to open the app in a
+## Setup Instructions
+1. 
+2. cd comic-paradise
+3. npm install
+4. npx expo start --clear
+5. Download Expo go app [ [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www) | [IOS](https://apps.apple.com/us/app/expo-go/id982107779) ] onto your phone and scan the QR code provided in your Terminal. Ensure that your PC and Phone are connected and using the same Wi-fi network.
+6. OR Use a virtual emulator (Android emulator from Android studio / IOS emulator from Xcode[Requires a MacBook]) -- in your terminal, press a for Android or press i for IOS to lauch the app from the emulator
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Prerequisite:
+To use the Comic Vine API, you will need your own API Key, please sign up to get an api key here: [**Get Comic Vine API Key**](https://comicvine.gamespot.com/api/)
+Create a **.env** file at the root of the application and set the following:
+- EXPO_PUBLIC_COMIC_VINE_URL=https://comicvine.gamespot.com/api
+- EXPO_PUBLIC_COMIC_VINE_KEY= [Your Api Key](https://comicvine.gamespot.com/api/)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### icon 
+![Icon](./assets/images/comic-paradise-icon.jpg)
 
-## Get a fresh project
+### Screenshots
+![Splash Screen](./assets/screenshots/Splash%20screen.png)
+![Home Screen](./assets/screenshots/Home.png)
+![Search default](./assets/screenshots/Search-default.png)
+![Search-results](./assets/screenshots/Search-results.png)
+![Comic-details](./assets/screenshots/Spider-man%20comic.png)
+![Comic-details](./assets/screenshots/Batman%20comic.png)
 
-When you're ready, run:
+NOTE: *The app is still being maintained and updated to improve performance and optimization*
 
-```bash
-npm run reset-project
-```
+This application was built by me to showcase my skills and add to my portfolio, not for commercial purposes. 
+[My Portfolio](https://portfolio-v2-0-six.vercel.app/)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.

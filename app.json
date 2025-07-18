@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "game-mobile-app",
-    "slug": "game-mobile-app",
+    "name": "Comic Paradise",
+    "slug": "comic-book-mobile-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "gamemobileapp",
+    "icon": "./assets/images/comic-paradise-icon.jpg",
+    "scheme": "comicbookmobileapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -13,25 +13,25 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/comic-paradise-icon.jpg",
+        "backgroundColor": "#000000"
       },
       "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/comic-paradise-icon.jpg"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/comic-paradise-icon.jpg",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#000000"
         }
       ]
     ],
